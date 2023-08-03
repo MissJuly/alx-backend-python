@@ -5,7 +5,7 @@ two strings.
 """
 
 
-def concat(str1: str, str2: str):
+def concat(str1: str, str2: str) -> str:
     """
     parameters:
         str1 (str): the first string.

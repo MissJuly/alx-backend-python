@@ -5,13 +5,13 @@ function for zooming in on a tuple
 from typing import Tuple, List
 
 
-def zoom_array(lst: Tuple, factor: int = 2) -> List:
+def zoom_array(lst: Tuple[int], factor: int = 2) -> List[int]:
     """
     Returns:
          a list
     """
-    zoomed_in: List = [
-        item for item in lst
+    zoomed_in: List[int] = [
+        item for item in list(lst)
         for i in range(int(factor))
     ]
     return zoomed_in

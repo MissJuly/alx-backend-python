@@ -7,7 +7,7 @@ from typing import Any, Mapping, Union, TypeVar
 
 T = TypeVar('T')
 Res = Union[Any, T]
-Def = Union[t, None]
+Def = Union[T, None]
 
 
 
